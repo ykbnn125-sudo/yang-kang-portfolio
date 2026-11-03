@@ -40,7 +40,7 @@ const group=(numbers,name,zhName,category,zhCategory)=>({
 export const projects=[
  {...group([1,2,3,4,5,6,7],'Connected Vision','影像与智能看护','Cameras & connected care','摄像与智能看护'),desc:['7 个项目，从 webcam 到行车记录仪，再到屏幕摄像头，均已完成上市。','All 7 projects—from webcams and dash cameras to cameras with displays—have launched.']},
  {...originalProjects[7],video:'/assets/biu-family-assembly-web.mp4'},originalProjects[8],originalProjects[9],
- group([11,12,14],'Packaging Collection','包装设计系列','Branding & packaging','品牌与包装'),
- group([13,16,17],'Oral Care Collection','口腔护理系列','Oral care design','口腔护理设计'),
+ {...group([11,12,14],'Packaging Collection','包装设计系列','Branding & packaging','品牌与包装'),pages:[27,28,29,24,25],desc:['沿用至今的“罐头”包装。','The “can” packaging design, still in use today.']},
+ {...group([13,16,17],'Oral Care Collection','口腔护理系列','Oral care design','口腔护理设计'),desc:['不同年龄段的牙刷设计。','Toothbrush designs for different age groups.']},
  originalProjects[14],originalProjects[17]
 ];
