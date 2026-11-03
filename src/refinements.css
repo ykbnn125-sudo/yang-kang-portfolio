@@ -1,0 +1,25 @@
+@font-face{font-family:Poppins;src:url('/fonts/Poppins-Regular.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:Poppins;src:url('/fonts/Poppins-Medium.ttf') format('truetype');font-style:normal;font-weight:500;font-display:swap}
+@font-face{font-family:Poppins;src:url('/fonts/Poppins-SemiBold.ttf') format('truetype');font-style:normal;font-weight:600;font-display:swap}
+@font-face{font-family:Poppins;src:url('/fonts/Poppins-Bold.ttf') format('truetype');font-style:normal;font-weight:700 900;font-display:swap}
+:root{font-family:Poppins,"Microsoft YaHei","PingFang SC",sans-serif}
+.brand-strip strong:nth-child(3),.hero em{font-family:inherit;font-style:normal}
+.portrait-wrap img{filter:none}
+.hero-warp-heading{height:250px;margin:4px 0 15px}
+.hero-warp-heading .warp-text{height:100%;min-height:0}
+.hero-manifesto h2{height:160px;margin:0}
+.hero-manifesto h2 .warp-text{height:100%;min-height:0}
+.hero h1{letter-spacing:-.055em;font-size:clamp(72px,7.2vw,120px)}
+.hero-manifesto h2{font-size:25px;line-height:1.35}
+.hero-manifesto{width:27%}
+.hero-content{width:66%}
+.project-image{background:#080909}
+.cover-stage{position:absolute;inset:0;display:grid;place-items:center;overflow:hidden}
+.cover-stage svg{display:block;width:100%;height:100%;overflow:hidden}
+.glass-title h3{font-size:clamp(26px,2.8vw,43px);line-height:1.15;letter-spacing:-.04em}
+.glass-title p{font-size:10px}
+.project-meta h3{font-size:17px}
+.project-number{font-size:8px}
+.modal-content h2{line-height:1.2}
+@media(max-width:1100px){.hero h1{font-size:82px}.hero-warp-heading{height:220px}.hero-manifesto h2{font-size:21px;height:145px}.glass-title h3{font-size:32px}.project-meta h3{font-size:14px}}
+@media(max-width:760px){.hero h1{font-size:64px}.hero-warp-heading{height:175px}.hero-content{width:100%}.hero-manifesto{width:75%}.hero-manifesto h2{font-size:22px;height:130px}.glass-title h3{font-size:35px}.project-meta h3{font-size:15px}}

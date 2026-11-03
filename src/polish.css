@@ -1,0 +1,15 @@
+/* Keep the navigation inset relative to the same canvas as the hero. */
+.project-film{position:relative;width:100%;overflow:hidden;background:#080808;isolation:isolate}
+.project-film video{display:block;width:100%;height:auto;object-fit:contain}
+.film-grain{position:absolute;inset:0;pointer-events:none;background-image:url('/assets/film-grain.svg');background-repeat:repeat;opacity:.18;mix-blend-mode:soft-light}
+#root{position:relative}
+.portrait-wrap{overflow:visible;border-radius:0}
+.portrait-image-frame{overflow:hidden;border-radius:25px;isolation:isolate}
+.portrait-label{padding-top:0}
+.hero-manifesto .warp-text{margin-left:-3px;width:calc(100% + 3px)}
+.fold-heading .fold-text,.fold-heading .fold-text span{color:inherit}
+.fold-heading > .fold-muted{color:#a29e99}
+.fold-heading .fold-text{vertical-align:baseline;line-height:inherit;letter-spacing:inherit;font-family:inherit}
+.contact{position:relative;isolation:isolate;overflow:hidden}
+.contact-grain{position:absolute;inset:0;z-index:-2;pointer-events:none;background:#071318}
+.contact-grain::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#07131875,transparent 90%);pointer-events:none}
